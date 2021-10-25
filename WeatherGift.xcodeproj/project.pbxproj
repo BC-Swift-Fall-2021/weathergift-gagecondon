@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		959CED4D573EA38AA2BD4BEA /* libPods-WeatherGift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C17AD05A250791A2FAA4C1A /* libPods-WeatherGift.a */; };
+		D410C32027271F3200F0DFAA /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410C31F27271F3200F0DFAA /* AboutViewController.swift */; };
 		D421B1FD2715F61D00290C74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D421B1FC2715F61D00290C74 /* AppDelegate.swift */; };
 		D421B1FF2715F61D00290C74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D421B1FE2715F61D00290C74 /* SceneDelegate.swift */; };
 		D421B2012715F61D00290C74 /* LocationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D421B2002715F61D00290C74 /* LocationListViewController.swift */; };
@@ -47,6 +48,7 @@
 /* Begin PBXFileReference section */
 		78C44CF93707CF4B9FBA59B0 /* Pods-WeatherGift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherGift.release.xcconfig"; path = "Target Support Files/Pods-WeatherGift/Pods-WeatherGift.release.xcconfig"; sourceTree = "<group>"; };
 		8C17AD05A250791A2FAA4C1A /* libPods-WeatherGift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeatherGift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D410C31F27271F3200F0DFAA /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		D421B1F92715F61D00290C74 /* WeatherGift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherGift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D421B1FC2715F61D00290C74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D421B1FE2715F61D00290C74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				D4AFCFC9271611B800C476FC /* PageViewController.swift */,
 				D4AFCFC7271604CF00C476FC /* LocationDetailViewController.swift */,
 				D421B2002715F61D00290C74 /* LocationListViewController.swift */,
+				D410C31F27271F3200F0DFAA /* AboutViewController.swift */,
 				D43EAF3F27265E2C0030B7F9 /* DailyTableViewCell.swift */,
 				D43EAF412726E3760030B7F9 /* HourlyCollectionViewCell.swift */,
 				D43EAF432726ED690030B7F9 /* UIViewController+alert.swift */,
@@ -356,6 +359,7 @@
 				D4AFCFCA271611B800C476FC /* PageViewController.swift in Sources */,
 				D421B22D2715F63500290C74 /* WeatherLocation.swift in Sources */,
 				D483DD192715FEE70075AD55 /* APIkeys.swift in Sources */,
+				D410C32027271F3200F0DFAA /* AboutViewController.swift in Sources */,
 				D421B1FD2715F61D00290C74 /* AppDelegate.swift in Sources */,
 				D43EAF442726ED690030B7F9 /* UIViewController+alert.swift in Sources */,
 				D4AFCFC8271604CF00C476FC /* LocationDetailViewController.swift in Sources */,
